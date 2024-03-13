@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#welcome-text{
+    padding-top: 1%;
+    color:honeydew;
+    font-family: "DM Serif Display", serif;
+  font-size: 100px;
+  font-style: normal;
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+    line-height:80px;
+}
+
+#buttons{
+    font-family: "DM Serif Display", serif;
+  font-size: 40px;
+    color: rgb(116, 116, 116);
+    text-align: center;
+    margin-top: 200px;
+}
+
+#Fun-Facts{
+    background-color:honeydew;
+    border:5px solid rgb(117, 195, 218);
+    margin-bottom: 30px;
+    max-width: 300px;
+    margin-left: 40%;
+    box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.491);
+}
+#Threats{
+    background-color:honeydew;
+    border:5px solid rgb(117, 195, 218);
+    margin-bottom: 30px;
+    max-width: 300px;
+    margin-left: 40%;
+    box-shadow: 1px 2px 3px 4px rgba(0, 0, 0,  0.491);
+}
+#How-Help{
+    background-color:honeydew;
+    border:5px solid rgb(117, 195, 218);
+    max-width: 300px;
+    margin-left: 40%;
+    box-shadow: 1px 2px 3px 4px rgba(0, 0, 0,  0.491);
+}
+
+#Info1{
+    background-color:honeydew;
+    max-width: 300px;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px 4px rgba(0, 0, 0,  0.491);
+    padding: 5px;
+    position: relative;
+    bottom: 400px;
+    left: 50px;
+}
+#Info2{
+    background-color:honeydew;
+    max-width: 400px;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px 4px rgba(0, 0, 0,  0.491);
+    padding: 5px;
+    position: relative;
+    bottom: 450px;
+    left: 999px;
+}
+
+#Info3{
+    background-color:honeydew;
+    max-width: 400px;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px 4px rgba(0, 0, 0,  0.491);
+    padding: 5px;
+    position: relative;
+    bottom: 400px;
+    left: 50px;
+}
+ 
+body {
+    background-image: url(https://h2.gifposter.com/bingImages/ManateeMom_EN-US9983570199_1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: black;
+    background-attachment: fixed;
+}
+
+.manatee{
+    width: 1px;
+    position:absolute;
+    top:5px;
+    left:10px;
+    animation: scaleImg 2s;
+}
+button{
+    position:absolute;
+    top:5px;
+    left:90px;
+}
+
+
+audio { display:none;}

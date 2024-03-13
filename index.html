@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQ Sandbox</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- importing the jquery library -->
+    <script src="jquery-3.7.1.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- a parent div to act as the container for all elements -->
+    <div id="home-screen">
+
+        <h1 id="welcome-text">Manatees!</h1>
+        <h2 id="welcome-text"> And How You Can Save Them</h2>
+    </div>
+    <div id="buttons">
+       <p id="Fun-Facts">Fun Facts</p>
+       <p id="Threats">Threats</p>
+       <p id="How-Help">How You Can Help</p>
+    </div>
+    <div id="HiddenTexts">
+    <p id="Info1">Did you know that manatees are close relatives of elephants? They weigh 880-1,210 lbs and have an average height of 9'2"-9'10". These docile herbivores have no natural predators and spend their days eating 10-15% of their body weight!</p>
+    <p id="Info2">Manatees face two main threats: Loss of habitat/food and watercraft collisions. When new developments are built near waterways, natural habitats for marine animals are destroyed. Humans also cause pollution that can lead to toxic algae growing in manatee feeding grounds. Lastly, most manatees are lost to collisions with boats and ships. However, there are some laws in the state of Florida that protect manatees by regulating boat speeds or prohibiting boating in special zones.</p>
+    <p id="Info3">When travelling in waters where manatees may be present, be cautious and follow all rules and signs. You can also help manatees by participating in beach clean ups and donating to programs like the Marine Mammal Fund.<br>
+    <a href="https://myfwc.com/education/wildlife/manatee/facts-and-information/#:~:text=Adult%20manatees%20are%20typically%209,to%20hold%20vegetation%20while%20eating.">Learn more</a>
+    <br>
+    <a href="https://wildlifeflorida.app.neoncrm.com/forms/8">Donate Today</a>
+    </p>
+    </div>
+    <audio src="media/audio/The Midnight - 'The Search for Ecco' (Official Audio).mp3"controls autoplay></audio>
+    <iframe src="audio/source.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+    </iframe> 
+ <img class="manatee" src="https://maddencdn.com/content/images/2020/florida/swimming-with-manatees/c0_manatee_float.png">
+ <button id="ClickMe">Click Me!</button>
+
+    <!-- linking to our jquery code -->
+    <script src="js/intro.js"></script>
+    
+</body>
+</html>
